@@ -43,3 +43,16 @@ end
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+gem 'bundler'
+
+gem 'bootstrap-sass', github: 'twbs/bootstrap-sass'
+
+gem 'bootstrap-sass-extras'
+
+gem 'delayed_job', github: 'collectiveidea/delayed_job'
+
+gem 'delayed_job_active_record', github: 'collectiveidea/delayed_job_active_record'
+
+gem 'pry-rails', group: :development
+
+gem 'validates_formatting_of'
